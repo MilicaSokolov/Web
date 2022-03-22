@@ -1,0 +1,435 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(140, 135, 189);
+  background: radial-gradient(
+    circle,
+    rgba(140, 135, 189, 1) 22%,
+    rgba(18, 72, 135, 1) 100%
+  );
+
+  justify-content: center;
+}
+
+
+.Naslov {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.PretragaNaslov{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.button {
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0px 5px 5px rgba(12, 2, 46, 0.63);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.kolona1 {
+  float: left;
+  width: 25%;
+}
+.kolona2 {
+  float: left;
+  width: 25%;
+}
+.kolona {
+  float: left;
+  padding: 10px;
+  height: auto;
+}
+
+.leva {
+  width: 5%;
+}
+
+.desna {
+  width: 95%;
+  height: auto;
+  text-align: center;
+}
+.leva2 {
+  width: 30%;
+}
+@media screen and (max-width: 600px) {
+  .leva2 {
+    width: 0%;
+  }
+}
+.srednja2 {
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+.leva1 {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .leva1 {
+    width: 0%;
+  }
+}
+.srednja1 {
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+.desna1 {
+  width: 25%;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dugmence {
+  border-radius: 30px;
+  background: rgb(48, 48, 134);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 15vw;
+  height: 30px;
+}
+
+.DugmeNaslov{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.pretragaGore{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.pretragaDole{
+  padding-top: 10vh;
+  width: 150vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .pretragaDole{
+      width: 100%;
+      margin: 0%;
+    }
+ 
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .pretragaDole{
+      width: 60vw;
+    }
+
+  }
+
+.PretragaOba{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tabela1 {
+  width: 100%;
+  
+}
+#nadji {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+}
+
+#nadji td,
+#customers th {
+  border: 1px solid #ddd;
+  
+}
+
+#nadji tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#nadji tr:hover {
+  background-color: #ddd;
+}
+.tabelaKolone{
+  width: 4vw;
+  height: 5vh;
+}
+.Tabela td{
+  width: 4vw;
+  height: 5vh;
+  
+}
+
+#nadji th {
+  text-align: left;
+  background: rgb(48, 48, 134);
+  color: white;
+}
+
+.slika{
+  border-radius: 8px;
+  width: 250px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.divLevo{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.uokvirislike{
+  margin-bottom: 10%;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgba(120, 120, 245, 0.37);
+  margin-right: 20px;
+  
+}
+
+.redjanje{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.redjanje2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+
+.pozicija{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Registracija{
+  border-radius: 8px;
+  border: 2px solid rgb(7, 5, 65);
+  margin-bottom: 2%;
+  background: #0d70cc75;
+  font-family: "Poppins", sans-serif; 
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 1vw 4vw 1vw 4vw;
+  box-shadow: 10px 10px 10px;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .Registracija{
+    width: 100%;
+  }
+  .Razdvoj{
+    width: auto;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .Registracija{
+    width: 30vw;
+  }
+  .Razdvoj{
+    width: 20vw;
+  }
+
+
+}
+.regCentar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Razdvoj{
+  border-radius: 8px;
+  border: 2px solid rgb(7, 5, 65);
+  margin-bottom: 2%;
+  background: #0d70cc75;
+  font-family: "Poppins", sans-serif; 
+  height: auto;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.novired{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+
+}
+
+.zajedno{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .zajedno{
+    flex-direction:column;
+  }
+  .Adr1,
+  .Adr2{
+    margin: 0%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .zajedno{
+    flex-direction:row;
+  }
+  .Adr1,
+  .Adr2{
+    margin: 0%;
+    width: 100%;
+    width: 60vw;
+  }
+ 
+}
+
+.levo{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+
+.divDesno{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  
+}
+.Adr1,
+.Adr2{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 500px;
+  margin-bottom: 2%;
+  
+  
+}
+
+.more{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.paluba{
+  background:#50260ad7;
+  height:20%;
+  width: 100%;
+}
+
+.LokalnaPalubi{
+  background:#e7e973d7;
+  height: 90%;
+  width: 20%;
+  margin-top: 1%;
+  margin-left: 2%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LokalnaPalubi label{
+  font-size: 12px;
+}
+
+.more12{
+  background:rgb(177, 217, 230);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+.dok{
+  background:#50260ad7;
+  width: 20%;
+}
+
+.brod{
+  height: 10%;
+  width: 80%;
+  background:#943d02d7;
+  border: 2px solid black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.brod label{
+  font-size: 12px;
+}
+
+.Red{
+  display: flex;
+  flex-direction: row;
+}
+.Centar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
